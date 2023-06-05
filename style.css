@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #36393F;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.form-rectangle {
+  background-color: #2F3136;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-label {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.todo-input,
+.todo-textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #202225;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  resize: none;
+  width: calc(100% - 20px); /* Reduce the width by 20px */
+  min-width: calc(100% - 20px); /* Ensure the minimum width is adjusted */
+  max-width: calc(100% - 20px); /* Ensure the maximum width is adjusted */
+}
+
+.todo-input::placeholder,
+.todo-textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.add-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #dddddd;
+}
+
+.todo-rectangle {
+  background-color: #2F3136;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.todo-item {
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #36393F;
+}
+
+.todo-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.todo-description {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.todo-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.delete-button {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.delete-button:hover {
+  color: red;
+}
+
+.todo-rectangle ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }

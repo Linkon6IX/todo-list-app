@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <div class="form-rectangle">
+            <div class="todo-form">
+                <label for="taskInput" class="todo-label">Title</label>
+                <input type="text" id="taskInput" class="todo-input" placeholder="Enter TODO's Title">
+                <label for="taskDescription" class="todo-label">Description</label>
+                <textarea id="taskDescription" class="todo-textarea" placeholder="Enter TODO's Description"></textarea>
+                <button id="addButton" class="add-button">Add</button>
+            </div>
+        </div>
+        <div class="todo-rectangle">
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <footer>
+        <p style="text-align: center;">"To Do List" App by <a style="text-decoration: none; color: aqua;" href="https://discord.gg/jQYYDTXURc" target="_blank">@linkon_447</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
