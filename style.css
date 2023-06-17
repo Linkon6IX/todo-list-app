@@ -46,9 +46,9 @@ h1 {
   margin-bottom: 10px;
   font-family: 'Poppins';
   resize: none;
-  width: calc(100% - 20px); /* Reduce the width by 20px */
-  min-width: calc(100% - 20px); /* Ensure the minimum width is adjusted */
-  max-width: calc(100% - 20px); /* Ensure the maximum width is adjusted */
+  width: calc(100% - 20px); 
+  min-width: calc(100% - 20px); 
+  max-width: calc(100% - 20px); 
 }
 
 .todo-input::placeholder,
