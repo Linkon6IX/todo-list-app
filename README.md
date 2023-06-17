@@ -5,5 +5,5 @@
 - Dark themed
 
 ### 💻 Demo: [Click here](https://korte-hobe-talika.netlify.app)
-- If you face any issues, feel free to contact me on discord [Linkon#7868](https://discord.com/users/871617315945472030)
+- If you face any issues, feel free to message me on discord [Linkon#7868](https://discord.com/users/871617315945472030)
 
