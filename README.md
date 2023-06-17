@@ -4,8 +4,5 @@
 - Simple, minimal and easy to use 
 - Dark themed
 
-###
+## Demo: [Click here](https://korte-hobe-talika.netlify.app)
 
-Demo: [Click here](https://korte-hobe-talika.netlify.app)
-
-###
