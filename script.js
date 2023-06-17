@@ -53,6 +53,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Initial rendering
     renderTasks();
 });
