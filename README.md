@@ -5,6 +5,6 @@
 - Dark themed
 
 ### 💻 Demo: [Click here](https://korte-hobe-talika.netlify.app)
-- This is an open-source project and most probably there won't be any new updates on this
+- This is an open-source project and most probably there won't be any new updates
 - You can use this for free, just make sure to give credits ;)
 
